@@ -6,6 +6,8 @@
  * + Desktop/nba/nabhaa_logo_vector.pdf (rasterized master)
  */
 
+import { withBase } from '../utils/base'
+
 export const site = {
   name: 'NABHAA',
   descriptor: 'ARCHITECTURE · INTERIORS · SPATIAL DESIGN',
@@ -31,24 +33,24 @@ export const site = {
   linkedin: 'https://www.linkedin.com/company/nabhaa',
   logo: {
     /** Clean transparent COLOR mark for ivory / light UI */
-    primary: '/assets/logo/nabhaa-butterfly.png',
+    primary: withBase('/assets/logo/nabhaa-butterfly.png'),
     /** Hi-res color on paper (reference only) */
-    vector: '/assets/logo/nabhaa-logo-from-vector.png',
-    pdf: '/assets/logo/nabhaa-logo-vector.pdf',
-    svg: '/assets/logo/nabhaa-butterfly.svg',
-    stackedDescriptor: '/assets/logo/nabhaa-lockup-stacked-descriptor.png',
-    stacked: '/assets/logo/nabhaa-lockup-stacked.png',
-    horizontal: '/assets/logo/nabhaa-lockup-horizontal.png',
-    horizontalReversed: '/assets/logo/nabhaa-lockup-horizontal-reversed.png',
-    symbolOnly: '/assets/logo/nabhaa-symbol-only.png',
+    vector: withBase('/assets/logo/nabhaa-logo-from-vector.png'),
+    pdf: withBase('/assets/logo/nabhaa-logo-vector.pdf'),
+    svg: withBase('/assets/logo/nabhaa-butterfly.svg'),
+    stackedDescriptor: withBase('/assets/logo/nabhaa-lockup-stacked-descriptor.png'),
+    stacked: withBase('/assets/logo/nabhaa-lockup-stacked.png'),
+    horizontal: withBase('/assets/logo/nabhaa-lockup-horizontal.png'),
+    horizontalReversed: withBase('/assets/logo/nabhaa-lockup-horizontal-reversed.png'),
+    symbolOnly: withBase('/assets/logo/nabhaa-symbol-only.png'),
     /** True transparent solid mono marks for web */
-    maroon: '/assets/logo/nabhaa-butterfly-maroon.png',
-    white: '/assets/logo/nabhaa-butterfly-white.png',
-    charcoal: '/assets/logo/nabhaa-butterfly-charcoal.png',
-    socialIvory: '/assets/brand/og-ivory.png',
-    socialMaroon: '/assets/brand/og-maroon.png',
-    favicon: '/favicon.ico',
-    appleTouch: '/assets/logo/favicon-180.png',
+    maroon: withBase('/assets/logo/nabhaa-butterfly-maroon.png'),
+    white: withBase('/assets/logo/nabhaa-butterfly-white.png'),
+    charcoal: withBase('/assets/logo/nabhaa-butterfly-charcoal.png'),
+    socialIvory: withBase('/assets/brand/og-ivory.png'),
+    socialMaroon: withBase('/assets/brand/og-maroon.png'),
+    favicon: withBase('/favicon.ico'),
+    appleTouch: withBase('/assets/logo/favicon-180.png'),
     alt: 'NABHAA — stylized architectural butterfly mark',
   },
   typography: {
