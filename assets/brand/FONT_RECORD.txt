@@ -1,0 +1,9 @@
+NABHAA FONT EXPLORATION
+FreeSerif — refined editorial serif
+DejaVu Serif — contemporary serif
+Noto Serif — modern literary serif
+Liberation Serif — classic serif
+DejaVu Sans — precise modern sans
+
+These are exploration candidates. Verify commercial font licensing before final adoption.
+The butterfly master is unchanged.
